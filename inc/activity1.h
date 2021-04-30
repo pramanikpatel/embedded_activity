@@ -1,6 +1,6 @@
 /**
  * @file activity1.h
- * @author PRAMANIK PATEL
+ * @author KHUBI THAKKAR
  * @brief HEADER FILE FOR ACTIVITY 1
  * @version 0.1
  * @date 2021-04-29

@@ -1,6 +1,6 @@
 /**
  * @file activity4.c
- * @author PRAMANIK PATEL
+ * @author Khubi Thakkar
  * @brief Activity 4: Communication of data using USART
  * @version 0.1
  * @date 2021-04-29

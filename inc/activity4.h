@@ -1,6 +1,6 @@
 /**
  * @file activity4.h
- * @author PRAMANIK PATEL
+ * @author Khubi Thakkar
  * @brief Header file for activity 4
  * @version 0.1
  * @date 2021-04-29

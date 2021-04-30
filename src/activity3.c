@@ -1,6 +1,6 @@
 /**
  * @file activity3.c
- * @author PRAMANIK PATEL
+ * @author Khubi Thakkar
  * @brief Activity 3: Related to generating PWM signal
  * @version 0.1
  * @date 2021-04-29

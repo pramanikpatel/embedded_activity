@@ -1,6 +1,6 @@
 /**
  * @file activity1.c
- * @author PRAMANIK PATEL 
+ * @author KHUBI THAKKAR 
  * @brief ACTIVITY 1: RELATED TO INTERFACING GPOI PINS FOR INPUTS AND OUTPUTS
  * @version 0.1
  * @date 2021-04-29

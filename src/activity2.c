@@ -1,6 +1,6 @@
 /**
  * @file activity2.c
- * @author PRAMANIK PATEL
+ * @author KHUBI THAKKAR
  * @brief ACTIVITY 2: INTERFACING OF ADC AND GENERATING WAVEFORM WITH CORRESPONDING DUTY CYCLE
  * @version 0.1
  * @date 2021-04-29

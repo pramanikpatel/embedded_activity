@@ -1,6 +1,6 @@
 /**
  * @file activity3.h
- * @author PRAMANIK PATEL
+ * @author Khubi Thakkar
  * @brief header for Activity 3
  * @version 0.1
  * @date 2021-04-29
