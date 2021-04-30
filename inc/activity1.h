@@ -14,6 +14,6 @@
 #include <avr/io.h>     // HEADER FILE FOR ATMEGA328
 
 void part1(void);   // IMPLEMENTATION OF ACTIVITY 1
-void init_pins(void);   // INITIALIZATION OF GPIO PINS
+void init_gpiopins(void);   // INITIALIZATION OF GPIO PINS
 
 #endif
