@@ -8,37 +8,37 @@ Code Quality | Compling | Codacy
 
 ### Case 1: When Heater = 0 and Seat = 0  
 
-![BOTH SWITCH ARE OFF](https://github.com/KhubiThakkar/EmbeddedC/blob/master/images/OFF-OFF.png)
+![BOTH SWITCH ARE OFF](https://github.com/pramanikpatel/embedded_activity/blob/master/images/OFF-OFF.png)
 
 ### Case 2: When Heater = 0 and Seat = 1  
 
-![ONE ON, ONE OFF](https://github.com/KhubiThakkar/EmbeddedC/blob/master/images/ON-OFF.png)
+![ONE ON, ONE OFF](https://github.com/pramanikpatel/embedded_activity/blob/master/images/OFF-ON.png)
 
 ### Case 3: When Heater = 1 and Seat = 0  
 
-![ONE OFF, ONE ON](https://github.com/KhubiThakkar/EmbeddedC/blob/master/images/OFF-ON.png)
+![ONE OFF, ONE ON](https://github.com/pramanikpatel/embedded_activity/blob/master/images/ON-OFF.png)
 
 ### Case 4: When Heater = 1 and Seat = 1  
 
-![BOTH SWITCH ARE ON](https://github.com/KhubiThakkar/EmbeddedC/blob/master/images/ON-ON.png)
+![BOTH SWITCH ARE ON](https://github.com/pramanikpatel/embedded_activity/blob/master/images/ON-ON.png)
 
 ## Activity 2: ADC Interfacing
 
-![adc](https://github.com/KhubiThakkar/EmbeddedC/blob/master/images/adc.png)
+![adc](https://github.com/pramanikpatel/embedded_activity/blob/master/images/adc.png)
 
 ## Activity 3: PWM Interfacing
 
-![pwm](https://github.com/KhubiThakkar/EmbeddedC/blob/master/images/pwm.png)
+![pwm](https://github.com/pramanikpatel/embedded_activity/blob/master/images/pwm.png)
 
 ## Activity 4: USART Interfacing
 
-![usart](https://github.com/KhubiThakkar/EmbeddedC/blob/master/images/usart.png)
+![usart](https://github.com/pramanikpatel/embedded_activity/blob/master/images/usart.png)
 
 ## Final Intergated circuit
 
 ### Design of Project  
 
-![circuit](https://github.com/KhubiThakkar/EmbeddedC/blob/master/images/Design.png)
+![circuit](https://github.com/pramanikpatel/embedded_activity/blob/master/images/final.png)
 
 ### Project in Action  
 
