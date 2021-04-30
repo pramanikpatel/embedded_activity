@@ -70,12 +70,13 @@ void init_adcport(void)
 void pt2(void){
     init_PWM();
     init_ADC();
-    init_ADCport();
+    init_adcport();
     init_PWMpin();
 
     PORTB = 0x00;
     // if we have converted the data on ADC pin
-    if((PIND & (1<<PD0)) == 1 ){
+    if((PIND & (1<<PD0)) == 1 )
+    {
         PORTB |= (1<<PB1);
         ReadADC(0);
         compare();
