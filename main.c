@@ -1,6 +1,6 @@
 /**
  * @file main.c
- * @author PRAMANIK PATEL
+ * @author Khubi Thakkar (you@domain.com)
  * @brief
  * @version 0.1
  * @date 2021-04-29
@@ -23,7 +23,7 @@ int main(void){
     while(1){
 
         part1();    // Activity 1: GPIO interfacing
-        pt2();    // Activity 2 and 3: ADC and PWM interfacing
+        part2();    // Activity 2 and 3: ADC and PWM interfacing
         part3();    // Activity 4: USART interfacing
         
     }
