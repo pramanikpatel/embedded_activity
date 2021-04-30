@@ -30,7 +30,7 @@ void init_ADC(void)
  * @param ch 
  * @return uint16_t 
  */
-uint16_t ReadADC(uint8_t ch)
+uint16_t RdADC(uint8_t ch)
 {
     //select adc channel
     ADMUX &= 0xf8;
@@ -67,7 +67,7 @@ void init_ADCport(void)
  * @brief If we have recieved the data from the ADC, we generate the duty cycle according to the 
  * digital value
  */
-void part2(void){
+void pt2(void){
     init_PWM();
     init_ADC();
     init_ADCport();

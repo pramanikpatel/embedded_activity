@@ -23,7 +23,7 @@ int main(void){
     while(1){
 
         pt1();    // Activity 1: GPIO interfacing
-        part2();    // Activity 2 and 3: ADC and PWM interfacing
+        pt2();    // Activity 2 and 3: ADC and PWM interfacing
         part3();    // Activity 4: USART interfacing
         
     }
