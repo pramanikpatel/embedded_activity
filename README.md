@@ -2,7 +2,7 @@
 ## Batches
 Code Quality | Compling | Codacy
 | ---- | ---- | ---- |
-  [![Cpp-check](https://github.com/pramanikpatel/embedded_activity/actions/workflows/compile.yml/badge.svg)](https://github.com/pramanikpatel/embedded_activity/actions/workflows/compile.yml) | [![Compile-Linux](https://github.com/pramanikpatel/embedded_activity/actions/workflows/codeQuality.yml/badge.svg)](https://github.com/pramanikpatel/embedded_activity/actions/workflows/codeQuality.yml) |  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5e6664be60d94a898f6bfaa2891dcf85)](https://www.codacy.com/gh/pramanikpatel/embedded_activity/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pramanikpatel/embedded_activity&amp;utm_campaign=Badge_Grade)) |
+  [![Cpp-check](https://github.com/pramanikpatel/embedded_activity/actions/workflows/compile.yml/badge.svg)](https://github.com/pramanikpatel/embedded_activity/actions/workflows/compile.yml) | [![Compile-Linux](https://github.com/pramanikpatel/embedded_activity/actions/workflows/codeQuality.yml/badge.svg)](https://github.com/pramanikpatel/embedded_activity/actions/workflows/codeQuality.yml) |  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5e6664be60d94a898f6bfaa2891dcf85)](https://www.codacy.com/gh/pramanikpatel/embedded_activity/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pramanikpatel/embedded_activity&amp;utm_campaign=Badge_Grade) |
 
 ## Activity 1: GPIO INTERFACING
 
