@@ -18,7 +18,7 @@
  * @brief INITIALIZE THE ADC
  * 
  */
-void init_ADC(void)
+void init_ADC()
 {   ADMUX=(1<<REFS0);
     ADCSRA=(1<<ADEN)|(7<<ADPS0);
 
@@ -30,7 +30,7 @@ void init_ADC(void)
  * @param ch 
  * @return uint16_t 
  */
-uint16_t ReadADC(uint8_t ch)
+uint16_t RdADC(uint8_t ch)
 {
     //select adc channel
     ADMUX &= 0xf8;
@@ -54,7 +54,7 @@ uint16_t ReadADC(uint8_t ch)
  * @brief INITIALIZE THE ADC PINS
  * 
  */
-void init_ADCport(void)
+void init_adcport(void)
 {
     DDRD &= ~(1<<PD0);     //Make PORTD0 as input pin
     DDRC &= ~(1<<PC0);     // Make PORTC0 as input pin
@@ -67,7 +67,7 @@ void init_ADCport(void)
  * @brief If we have recieved the data from the ADC, we generate the duty cycle according to the 
  * digital value
  */
-void part2(void){
+void pt2(void){
     init_PWM();
     init_ADC();
     init_ADCport();
