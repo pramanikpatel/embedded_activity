@@ -1,7 +1,7 @@
 /**
  * @file activity3.c
- * @author Khubi Thakkar
- * @brief Activity 3: Related to generating PWM signal
+ * @author PRAMANIK PATEL
+ * @brief Activity 3: generating PWM signal
  * @version 0.1
  * @date 2021-04-29
  * 
@@ -14,6 +14,15 @@
 #include "activity4.h"
 
 /**
+ * @brief Initialize PWM pins
+ * 
+ */
+void init_PWMpin(void){
+    DDRD |= (1<<PD6);      // set PD6 for output
+}
+
+
+/**
  * @brief Initalize PWM
  * 
  */
@@ -24,19 +33,12 @@ void init_PWM(void){
     // no prescaler
 }
 
-/**
- * @brief Initialize PWM pins
- * 
- */
-void init_PWMpin(void){
-    DDRD |= (1<<PD6);      // set PD6 for output
-}
 
 /**
  * @brief compare the ADC data and decide the duty cycle
  * 
  */
-void compare(void){
+void cmp(void){
     // changing the duty cycle of waveform
     if (ADC>0 && ADC<200){
         OCR0A = 51;

@@ -16,6 +16,6 @@
 
 void init_PWM(void);
 void init_PWMpin(void);
-void compare(void);
+void cmp(void);
 
 #endif
