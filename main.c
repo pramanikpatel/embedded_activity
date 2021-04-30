@@ -19,7 +19,7 @@
  * @return int
  */
 int main(void){
-    init_gpiopins();
+    init_gpio();
     while(1){
 
         pt1();    // Activity 1: GPIO interfacing
