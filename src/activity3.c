@@ -35,7 +35,7 @@ void init_PWM(void){
 
 
 /**
- * @brief compare the ADC data and decide the duty cycle
+ * @brief compare the ADC data and generate the duty cycle
  * 
  */
 void cmp(void){

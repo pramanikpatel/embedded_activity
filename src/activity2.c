@@ -1,7 +1,7 @@
 /**
  * @file activity2.c
  * @author KHUBI THAKKAR
- * @brief ACTIVITY 2: INTERFACING OF ADC AND GENERATING WAVEFORM WITH CORRESPONDING DUTY CYCLE
+ * @brief ACTIVITY 2: ad interfacing and generating pwm
  * @version 0.1
  * @date 2021-04-29
  * 
@@ -25,7 +25,7 @@ void init_ADC(void)
 }
 
 /**
- * @brief READ ANALOG DATA ON THE ADC PIN
+ * @brief get analog data
  * 
  * @param ch 
  * @return uint16_t 

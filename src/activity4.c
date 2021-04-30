@@ -47,16 +47,13 @@ char USART_Rd_Char()
  */
 void USART_wrt_char(char data)
 {
-    while(!(UCSR0A & (1<<UDRE0)))
-    {
-        //do nothing
-    }
+    while(!(UCSR0A & (1<<UDRE0)));
     UDR0 = data;
 }
 
 
 /**
- * @brief after reading the duty cycle value of PWM the temperature is decided and sent through USART
+ * @brief from pwm temperature is printed
  * 
  */
 void pt3 (void)
