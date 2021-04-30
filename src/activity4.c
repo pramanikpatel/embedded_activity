@@ -18,7 +18,7 @@
  * 
  * @param ubrr_value 
  */
-void USARTInit(uint16_t ubrr_value)
+void init_USART(uint16_t ubrr_value)
 {
     UBRR0H = (ubrr_value>>8) & 0x00ff;
     UBRR0L = ubrr_value;
@@ -31,7 +31,7 @@ void USARTInit(uint16_t ubrr_value)
  * 
  * @return char 
  */
-char USARTReadChar()
+char USART_Rd_Char()
 {
     while(!(UCSR0A & (1<<RXC0)))
     {
@@ -45,7 +45,7 @@ char USARTReadChar()
  * 
  * @param data 
  */
-void USARTWriteChar(char data)
+void USART_wrt_char(char data)
 {
     while(!(UCSR0A & (1<<UDRE0)))
     {
@@ -59,23 +59,23 @@ void USARTWriteChar(char data)
  * @brief after reading the duty cycle value of PWM the temperature is decided and sent through USART
  * 
  */
-void part3 (void)
+void pt3 (void)
 {
-    USARTInit(103);
+    init_USART(103);
     if(OCR0A == 50)
     {
-        USARTWriteChar(20);
+        USART_wrt_char(20);
     }
     else if(OCR0A == 101)
     {
-        USARTWriteChar(25);
+        USART_wrt_char(25);
     }
     else if(OCR0A == 178)
     {
-        USARTWriteChar(29);
+        USART_wrt_char(29);
     }
     else if(OCR0A == 242)
     {
-        USARTWriteChar(33);
+        USART_wrt_char(33);
     }
 }

@@ -15,10 +15,10 @@
 #include <util/delay.h>
 
 
-void USARTInit(uint16_t);
-char USARTReadChar();
-void USARTWriteChar(char);
-void part3(void);
+void init_USART(uint16_t);
+char USART_Rd_Char();
+void USART_wrt_char(char);
+void pt3(void);
 
 
 #endif
