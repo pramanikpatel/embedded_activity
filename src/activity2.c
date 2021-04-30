@@ -78,7 +78,7 @@ void part2(void){
     if((PIND & (1<<PD0)) == 1 ){
         PORTB |= (1<<PB1);
         ReadADC(0);
-        compare();
+        cmp();
         _delay_ms(200);     // time between consecutive reads
     }
     else{
