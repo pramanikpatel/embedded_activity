@@ -16,12 +16,12 @@
 /**
  * @brief initialization of USART
  * 
- * @param ubrr_value 
+ * @param data 
  */
-void init_USART(uint16_t ubrr_value)
+void init_USART(uint16_t data)
 {
-    UBRR0H = (ubrr_value>>8) & 0x00ff;
-    UBRR0L = ubrr_value;
+    UBRR0H = (data>>8) & 0x00ff;
+    UBRR0L = data;
     UCSR0C = (1<<UMSEL00)|(1<<UCSZ01)|(1<<UCSZ00);
     UCSR0B = (1<<RXEN0)|(1<<TXEN0)|(1<<RXCIE0)|(1<<TXCIE0);
 }

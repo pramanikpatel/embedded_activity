@@ -30,12 +30,12 @@ void init_ADC(void)
  * @param ch 
  * @return uint16_t 
  */
-uint16_t RdADC(uint8_t ch)
+uint16_t RdADC(uint8_t channel)
 {
     //select adc channel
     ADMUX &= 0xf8;
-    ch=ch&0b00000111;
-    ADMUX |= ch;
+    channel=channel & 0b00000111;
+    ADMUX |= channel;
 
     //Start conversion
     ADCSRA |= (1<<ADSC);
