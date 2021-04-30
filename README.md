@@ -2,7 +2,7 @@
 ## Batches
 Code Quality | Compling | Codacy
 | ---- | ---- | ---- |
-  [![Cpp-check](https://github.com/pramanikpatel/embedded_activity/actions/workflows/compile.yml/badge.svg)](https://github.com/pramanikpatel/embedded_activity/actions/workflows/compile.yml) | [![Compile-Linux](https://github.com/pramanikpatel/embedded_activity/actions/workflows/codeQuality.yml/badge.svg)](https://github.com/pramanikpatel/embedded_activity/actions/workflows/codeQuality.yml)) |  [![Codacy Badge](___) |
+  [![Cpp-check](https://github.com/pramanikpatel/embedded_activity/actions/workflows/compile.yml/badge.svg)](https://github.com/pramanikpatel/embedded_activity/actions/workflows/compile.yml) | [![Compile-Linux](https://github.com/pramanikpatel/embedded_activity/actions/workflows/codeQuality.yml/badge.svg)](https://github.com/pramanikpatel/embedded_activity/actions/workflows/codeQuality.yml) |  [![Codacy Badge](___) |
 
 ## Activity 1: GPIO INTERFACING
 
