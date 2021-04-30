@@ -15,9 +15,9 @@
 #include <util/delay.h> // header for delay function
 
 void init_ADC(void);    // initialize adc
-uint16_t ReadADC(uint8_t ch);   // read the adc 
-void init_ADCport(void);    // intialize adc pins
-void part2(void);   // implementation of activity 2 & 3
+uint16_t RdADC(uint8_t ch);   // read the adc 
+void init_adcport(void);    // intialize adc pins
+void pt2(void);   // implementation of activity 2 & 3
 
 #endif
 
