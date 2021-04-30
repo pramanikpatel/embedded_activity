@@ -22,7 +22,7 @@ int main(void){
     init_gpiopins();
     while(1){
 
-        part1();    // Activity 1: GPIO interfacing
+        pt1();    // Activity 1: GPIO interfacing
         part2();    // Activity 2 and 3: ADC and PWM interfacing
         part3();    // Activity 4: USART interfacing
         
