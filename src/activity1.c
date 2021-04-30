@@ -19,7 +19,7 @@
  *  the indicator LED pin as output
  */
 void init_gpiopins(void){
-    DDRD &= ~(1<<PD0)  // input switch
+    DDRD &= ~(1<<PD0);  // input switch
     DDRD &= ~(1<<PD1);  // input switch
     DDRB |= (1<<PB1);   // output switch
 }
