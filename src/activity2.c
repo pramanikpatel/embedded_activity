@@ -77,7 +77,7 @@ void pt2(void){
     // if we have converted the data on ADC pin
     if((PIND & (1<<PD0)) == 1 ){
         PORTB |= (1<<PB1);
-        ReadADC(0);
+        RdADC(0);
         cmp();
         _delay_ms(200);     // time between consecutive reads
     }
