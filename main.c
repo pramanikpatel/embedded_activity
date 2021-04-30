@@ -1,6 +1,6 @@
 /**
  * @file main.c
- * @author Khubi Thakkar (you@domain.com)
+ * @author PRAMANIK PATEL
  * @brief
  * @version 0.1
  * @date 2021-04-29
