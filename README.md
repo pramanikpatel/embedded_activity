@@ -36,10 +36,6 @@ Code Quality | Compling | Codacy
 
 ## Final Intergated circuit
 
-### Design of Project  
-
-![circuit](https://github.com/pramanikpatel/embedded_activity/blob/master/images/final.png)
-
 ### Project in Action  
 
 ![final circuit](https://github.com/KhubiThakkar/EmbeddedC/blob/master/images/final.png)
