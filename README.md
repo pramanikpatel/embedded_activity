@@ -38,4 +38,4 @@ Code Quality | Compling | Codacy
 
 ### Project in Action  
 
-![final circuit](https://github.com/KhubiThakkar/EmbeddedC/blob/master/images/final.png)
+![final circuit](https://github.com/pramanikpatel/embedded_activity/blob/master/images/Design.png)
